@@ -4,6 +4,8 @@ body {
   font-family: sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 li a {
@@ -45,4 +47,28 @@ p {
 
 .yellow {
   background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.red-grad {
+  background: linear-gradient(rgb(255, 0, 0), rgb(71, 28, 28));
+}
+
+.white-grad {
+  background: linear-gradient(white, rgb(112, 112, 112))
+}
+
+.blue-grad {
+  background: linear-gradient(blue, rgb(42, 22, 116))
+}
+
+.yell-grad {
+  background: linear-gradient(yellow, rgb(145, 119, 5))
+}
+
+.purp-grad {
+  background: linear-gradient(purple, rgb(52, 3, 85))
 }
